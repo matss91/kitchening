@@ -88,14 +88,14 @@ width: 100%;
     
     }
 
-    .container section.vip-products article .especial{
+    .container section.vip-products article .special{
    position:absolute;
         top:0px;
               right: 10px;
             
             }
 
-            .container section.vip-products article.zoom{
+            .container section.vip-products article.product a.zoom{
 background-color:rgba(0,0,0,0.5);
 width:100%;
 display:block ;
@@ -119,10 +119,15 @@ margin: 15px 0;
 
 }
 
-container section.vip-products article.product a.more{
+.container section.vip-products article.product a.more{
     background-color:var(--colorBotones);
     padding: 5px;
     text-transform:lowercase ;
 
 
+}
+
+footer.main-footer{
+    background-color:red;
+    text-align: center;
 }
